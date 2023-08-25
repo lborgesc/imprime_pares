@@ -6,16 +6,15 @@ using namespace std;
 class PrintPares { 
     public: 
         PrintPares( int , int[] );
+        ~PrintPares();
 
         void setTamanho( int );
-
         int getTamanho ( );
 
         void setListaNumeros( int[] );
-
         int* getListaNumeros ( );
 
-        int printPares( ); 
+        void printPares( ); 
 
     private: 
     int tamanho;

@@ -9,7 +9,7 @@ int main ( ) {
     int tamanho = sizeof(listaNum)/sizeof(int);
 
     PrintPares list( tamanho, listaNum );
-
-    cout << list.getListaNumeros();
     list.printPares( );
+
+    return 0;
 }
